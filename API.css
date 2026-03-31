@@ -1,0 +1,8 @@
+.button{
+    border: 2px solid;
+    border-radius : 3px;
+    background-color:cadetblue;
+    color: black;
+    width: 110px;
+    height: 30px;
+}
