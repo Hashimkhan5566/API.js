@@ -84,79 +84,81 @@
 //   return [laW, pw];
 // }
 // harry();
+console.log(document.body.firstChild);
+console.log(document.body.firstChild.previousSibling);
 
-async function harry(){
-  let promise  =  new Promise((resolve, reject)=>{
-    setTimeout(() => {
-       resolve(34);
-    },3000);
+// async function harry(){
+//   let promise  =  new Promise((resolve, reject)=>{
+//     setTimeout(() => {
+//        resolve(34);
+//     },3000);
 
-  })
+//   })
 
-  let promise2 = new Promise((resolve, reject)=>{
-    setTimeout(() => {
-      resolve(40);
-    }, 4000);
-  })
+//   let promise2 = new Promise((resolve, reject)=>{
+//     setTimeout(() => {
+//       resolve(40);
+//     }, 4000);
+//   })
 
-  let p1 = await promise;
-  let p2 = await promise2;
+//   let p1 = await promise;
+//   let p2 = await promise2;
 
-  return [p1,p2];
-}
- const cherry = ()=>{
-console.log("welcome to promise");
-}
-let main=()=>{
-
-
-let a =  harry();
-let b = cherry();
-console.log(a);
-console.log(b);
-
-}
-main();
+//   return [p1,p2];
+// }
+//  const cherry = ()=>{
+// console.log("welcome to promise");
+// }
+// let main=()=>{
 
 
-setTimeout(() => {
-  console.log("deep");
+// let a =  harry();
+// let b = cherry();
+// console.log(a);
+// console.log(b);
+
+// }
+// main();
+
+
+// setTimeout(() => {
+//   console.log("deep");
   
-},3000);
+// },3000);
 
-setTimeout(() => {
-  console.log("concept");
+// setTimeout(() => {
+//   console.log("concept");
   
-}, 4000);
-try{
-setTimeout(() => {
-  try{
-  console.log(deep);
-  }
-  catch(err){
-    console.log("error this same");
-    console.log(err.name);
-    console.log(err.message);
-    console.log(err.stack);
+// }, 4000);
+// try{
+// setTimeout(() => {
+//   try{
+//   console.log(deep);
+//   }
+//   catch(err){
+//     console.log("error this same");
+//     console.log(err.name);
+//     console.log(err.message);
+//     console.log(err.stack);
     
     
     
-  }
-}, 6000);
-}
-catch(err){
-  console.log("balle balle");
+//   }
+// }, 6000);
+// }
+// catch(err){
+//   console.log("balle balle");
   
-}
-setTimeout(() => {
-  console.log("run");
+// }
+// setTimeout(() => {
+//   console.log("run");
   
-}, 5000);
-let num = Number(prompt("enter your number"));
-if(num>10){
-  throw new ReferenceError("your number is greater");
+// }, 5000);
+// let num = Number(prompt("enter your number"));
+// if(num>10){
+//   throw new ReferenceError("your number is greater");
   
-}
+// }
 
 
 //currency converter
@@ -168,3 +170,6 @@ if(num>10){
   
 // })
 
+
+//example of dom
+document.body.style.backgroundColor = "red";
