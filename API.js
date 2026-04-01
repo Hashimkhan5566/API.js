@@ -162,14 +162,30 @@ console.log(document.body.firstChild.previousSibling);
 
 
 //currency converter
-// let amount  = Number(prompt("enter your number"));
-// let inp = document.getElementsByClassName =  ".input"[0];
-// let btn = document.getElementsByClassName = ".button"[0];
-
-// btn.addEventlistener("click" , function(){
+let amount  = Number(prompt("enter your amount"));
+let currency  = prompt("pkr", "us", "darham");
+let rate ;
+if(currency==="us"){
+  rate = 280;
   
-// })
 
+}
+else if(currency==="pkr"){
+  rate = 409;
+  
+}
+else if(currency==="darham"){
+  rate = 78;
+  
+}
+let formula = amount*rate;
+// let inp = document.getElementsByClassName(input)[0];
+// let btn = document.getElementsByClassName(button)[0];
+
+// btn.addEventListener("click" , function(){
+    
+// });
+alert(formula);
 
 //example of dom
 document.body.style.backgroundColor = "red";
