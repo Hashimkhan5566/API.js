@@ -190,3 +190,4 @@
 // //example of dom
 // document.body.style.backgroundColor = "red";
 
+console.log()
