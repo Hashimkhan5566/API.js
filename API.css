@@ -97,33 +97,91 @@ height: 60px; */
 /* body {
     background-color: yellow;
 } */
-.container{
+/* .container{
     border: 2px solid red;
     height: 500px;
     width: 1000px;
     display: flex;
     justify-content: center;
     /* align-items:end; */
-    gap: 10px;
+    /* gap: 10px;
     row-gap: 5px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     /* align-content: end;  */
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     /* align-self: 2; */
 
     
 
-}
-.order-1{
-    order: 1;
-}
-.order-2{
-    order:2;
-}
-.item{
+/* } */
+/* .order-1{ */
+    /* order: 1; */
+/* } */
+/* .order-2{ */
+    /* order:2; */
+/* } */
+/* .item{ */
     /* flex-grow: 1; */
+    /* border: 1px solid black; */
+    /* height: 20px; */
+    /* width: 20px; */
+    
+/* } */ 
+/* .container{
     border: 1px solid black;
-    height: 20px;
-    width: 20px;
+    height: 700px;
+    width: 900px;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                          "side article article"
+                           "footer footer footer"; */
+    /* grid-template-columns: [first] 120px [second] 100px [t]; */
+    /* grid-template-rows: 200px 120px 130px; 
+
+}
+/* .item{
+    border: 1px solid black;
+    height:50px;
+    width: 50px;
+  
+}
+.item-0{
+   grid-area: nav; 
+   background-color: brown;   
+    }
+.item-1{
+    /* grid-column: first/t; */
+    /* grid-row: 1/2;
+    grid-area: side ;
+/* }
+.item-2{
+     /* grid-column: first/second; */
+    /* grid-row: 1/2; 
+    grid-area: article;
+    background-color: aquamarine;
+}
+.item-3{
+    grid-area:footer;
+    background-color: aqua;
+
+}
+.item-4{
+    
+/* }  */
+.container{
+    height: 100px;
+    width:500px;
+    background-color: blue;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    from{
+
+    }
+    to{
+        transform: translateX(100px);
+    }
     
 }
