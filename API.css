@@ -168,7 +168,7 @@ height: 60px; */
 .item-4{
     
 /* }  */
-.container{
+/* .container{
     height: 100px;
     width:500px;
     background-color: blue;
@@ -184,4 +184,24 @@ height: 60px; */
         transform: translateX(100px);
     }
     
+} */
+
+.container{
+    height:600px;
+    width: 600px;
+    border: 20px solid black;
+
+    
+}
+.box{
+    border:10px solid royalblue;
+    transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 2s;
+    width:100px;
+    height:100px;
+}
+.box:hover{
+    transform:rotateX(90deg)  scale(0.5);
 }
